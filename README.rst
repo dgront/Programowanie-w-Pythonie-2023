@@ -23,8 +23,8 @@ Programowanie w Pythonie 2022
    wypisze wszystkie litery tego wyrazu.
 #. Wypisz litery powyższego wyrazu w odwrotnej kolejności (od ostatniej do pierwszej).
 #. Wypisz 10 losowych liter z tego wyrazu.
-#. Stwórz słownik zawierający wartość 12 dla klucza "C".
-#. Dodaj do słownika wartości 14 i 16 odpowiednio dla kluczy "N" i "O".
+#. Stwórz słownik zawierający wartość ``12`` dla klucza ``"C"``.
+#. Dodaj do słownika wartości ``14`` i ``16`` odpowiednio dla kluczy ``"N"`` i ``"O"``.
 #. Wydrukuj na ekranie wszystkie klucze z tego słownika.
 
 3. Przetwarzanie plików
@@ -40,7 +40,7 @@ Programowanie w Pythonie 2022
 #. (*) policz, który wyraz powtarza sie najczęściej w "Lord of the rings"
 #. Wydrukuj pliki z bieżącego katalogu
 #. Wydrukuj bieżący katalog
-#. (*) policz, ile plików o rozszerzeniu ".jpg" jest we wszystkich podkatalogach
+#. (*) policz, ile plików o rozszerzeniu ``".jpg"`` jest we wszystkich podkatalogach
 
 4. Własne funkcje
 --------------------------------------
