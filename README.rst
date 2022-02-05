@@ -36,7 +36,7 @@ Programowanie w Pythonie 2022
    które zaczynają się na 1
 #. Wczytaj plik "data.txt" i oblicz średnią z liczb w tym pliku
 #. Wczytaj plik "data.txt" linia po linii i oblicz średnią z liczb w tym pliku
-#. Wczytaj plik "lotr1.txt" linia po linii i wypisz liczbę wyrazów w każdej linijce; plik ten znajduje się tutaj
+#. Wczytaj plik "lotr1.txt" linia po linii i wypisz liczbę wyrazów w każdej linijce; plik ten znajduje się `tutal <http://bioshell.pl/~dgront/lotr1.txt>`_
 #. (*) policz, który wyraz powtarza sie najczęściej w "Lord of the rings"
 #. Wydrukuj pliki z bieżącego katalogu
 #. Wydrukuj bieżący katalog
