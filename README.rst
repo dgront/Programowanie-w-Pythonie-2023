@@ -45,6 +45,8 @@ Programowanie w Pythonie 2022
 #. Wydrukuj pliki z bieżącego katalogu
 #. Wydrukuj bieżący katalog
 #. (*) policz, ile plików o rozszerzeniu ``".jpg"`` jest we wszystkich podkatalogach
+#. (**) napisz program, który zlicza wszystkie pliki we wszystkich podkatalogach, grupując je wg rozszerzenia; wynikiem
+   działania programu powinna być tabelka wyglądająca np tak : ``"JPG": 124, "PNG": 34, "EXE": 2, "TXT": 17``
 
 4. Własne funkcje
 --------------------------------------
@@ -52,4 +54,7 @@ Programowanie w Pythonie 2022
 #. Stwórz funkcję, która dodaje dwie liczby
 #. Stwórz funkcję, która rozwiązuje równanie kwadratowe;
    jej argumentami powinny być współczynniki a, b i c równania.
+# (*) Napisz funkcję, która szyfruje wiadomość wg szyfru Cezara. Argumentami tej funkcji powinny być:
+  szyfrowana wiadomość (string) oraz przesunięcie alfabetu (liczba całkowita). Zauważ, że ta sama funkcja
+  może być wykorzystywana do odczytywania szyfrogramów, kiedy przesunięcie jest ujemne.
    
