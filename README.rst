@@ -57,4 +57,19 @@ Programowanie w Pythonie 2022
 #. (*) Napisz funkcję, która szyfruje wiadomość wg szyfru Cezara. Argumentami tej funkcji powinny być:
    szyfrowana wiadomość (string) oraz przesunięcie alfabetu (liczba całkowita). Zauważ, że ta sama funkcja
    może być wykorzystywana do odczytywania szyfrogramów, kiedy przesunięcie jest ujemne.
-   
+
+4. Przydatne moduły
+--------------------------------------
+
+a. praca z plikami XLS
+++++++++++++++++++++++++
+
+#. zainstaluj moduł openpyxl
+#. stwórz arkusz w którego kolumnie A będzie 10 kolejnych liczb całkowitych
+#. stwórz arkusz z tabliczką mnożenia
+#. stablicuj epitrochoidę; krzywa ta zadana jest równaniem parametrycznym:
+    x(t) = (R+r) * cos(t) - h * cos((R+r)/r * t)
+    y(t) = (R+r) * sin(t) - h * sin((R+r)/r * t)
+    zapisz w arkuszu: w kolumnie A wartości t od 0 do 5.0 co 0.01, w kolumnie B wartości
+    x(t) a w kolumnie C y(t), następnie zrób w Excelu wykres y(x)
+#. Model Lotki-Voltery
