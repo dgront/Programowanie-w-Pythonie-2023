@@ -58,7 +58,7 @@ Programowanie w Pythonie 2022
    szyfrowana wiadomość (string) oraz przesunięcie alfabetu (liczba całkowita). Zauważ, że ta sama funkcja
    może być wykorzystywana do odczytywania szyfrogramów, kiedy przesunięcie jest ujemne.
 
-4. Przydatne moduły
+5. Przydatne moduły
 --------------------------------------
 
 a. praca z plikami XLS
