@@ -7,6 +7,6 @@ from openpyxl import Workbook
 
 w = Workbook()
 arkusz = w.active
-w.save("plik.xlsx")
+w.save("plik2.xlsx")
 
 
