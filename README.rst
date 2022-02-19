@@ -54,7 +54,7 @@ Programowanie w Pythonie 2022
 #. Stwórz funkcję, która dodaje dwie liczby
 #. Stwórz funkcję, która rozwiązuje równanie kwadratowe;
    jej argumentami powinny być współczynniki a, b i c równania.
-# (*) Napisz funkcję, która szyfruje wiadomość wg szyfru Cezara. Argumentami tej funkcji powinny być:
-  szyfrowana wiadomość (string) oraz przesunięcie alfabetu (liczba całkowita). Zauważ, że ta sama funkcja
-  może być wykorzystywana do odczytywania szyfrogramów, kiedy przesunięcie jest ujemne.
+#. (*) Napisz funkcję, która szyfruje wiadomość wg szyfru Cezara. Argumentami tej funkcji powinny być:
+   szyfrowana wiadomość (string) oraz przesunięcie alfabetu (liczba całkowita). Zauważ, że ta sama funkcja
+   może być wykorzystywana do odczytywania szyfrogramów, kiedy przesunięcie jest ujemne.
    
