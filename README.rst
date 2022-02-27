@@ -57,4 +57,11 @@ Programowanie w Pythonie 2022
 #. (*) Napisz funkcję, która szyfruje wiadomość wg szyfru Cezara. Argumentami tej funkcji powinny być:
    szyfrowana wiadomość (string) oraz przesunięcie alfabetu (liczba całkowita). Zauważ, że ta sama funkcja
    może być wykorzystywana do odczytywania szyfrogramów, kiedy przesunięcie jest ujemne.
-   
+
+4. Złożone struktury danych
+--------------------------------------
+#. Zainicjuj listę 3x3
+#. Stwórz listę 2D zawierającą tabliczkę mnożenia 10x10; wykorzystaj pętle
+#. Napisz program rysujący zbiór Mandelbrota
+
+
