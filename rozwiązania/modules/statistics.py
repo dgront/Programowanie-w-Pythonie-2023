@@ -1,6 +1,9 @@
+import logging
+
+
 def srednia(*data, **kwargs):
     """
-    Po napisaniu ta funkcja ma działać tak :
+    Oblicza średnią z podanych liczb:
 
    .. code-block:: python
 
@@ -20,17 +23,15 @@ def srednia(*data, **kwargs):
     col = kwargs.get("column", 0)
     if isinstance(data[0], list) or isinstance(data[0], tuple):
         if isinstance(data[0][0], list) or isinstance(data[0][0], tuple):   #args = [(1,1),(2,3)] lub args = [[1,1],[2,3]]
-            # print("argumentem jest lista2D:",data)
+            logging.INFO("argumentem jest lista2D:")
             for d in data:
                 data_copy.append(d[0][col])
         else:                                                               #args = [1,2,3,4] lub args = (1,2,3,4)
-            # print("argumentem jest lista1D:", data)
             data_copy = data[0]
     else:                                                                   # args = 1,2,3,4,5
-        # print("argumentem są warości:", data)
         data_copy = data
-    # --- tu liczymy srednią z listy "data_copy"
 
+    # --- tu liczymy srednią z listy "data_copy"
     suma = 0.0
     for d in data_copy: suma += d
 
