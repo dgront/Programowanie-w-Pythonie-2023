@@ -41,7 +41,15 @@ print(sorted(lista, reverse=True, key=lambda krotka:krotka[1]))
 
 def suma_liczb_n(*args, **kwargs):
 
-    if isinstance(args[0],list):
+    if isinstance(args,list):
+        print("args jest listą")
+    elif isinstance(args, tuple):
+        print("args jest krotką")
+    else:
+        print("nie mam pojęcia czym jest args")
+
+
+    if isinstance(args[0],list) or isinstance(args[0],tuple):
         print("args[0] is a list:",args[0] )
         wartosci_do_sumowania = args[0]
     else:
@@ -60,10 +68,9 @@ def suma_liczb_n(*args, **kwargs):
 # print(suma_liczb_n(1,2,3,4,5, factor=2.5, power=2))
 # print(suma_liczb_n(1,2,3,4,5, power=3))
 # print(suma_liczb_n(1,2,3,4,5, factr=2.5))       # --- UWAGA - literówka!!!!
-# print(suma_liczb_n(1,2,3,4,5))
+print(suma_liczb_n(1,2,3,4,5))
 
 print(suma_liczb_n( [1,2,3, 4, 5, 6] ))
 print(suma_liczb_n( 1,2,3,4,5,6 ))
-
-
+print(suma_liczb_n( 1,2,3,4,5,6 ))
 
