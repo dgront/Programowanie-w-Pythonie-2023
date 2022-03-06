@@ -90,5 +90,36 @@ b. wykresy z matplotlib
 #. Zainicjuj listę 3x3
 #. Stwórz listę 2D zawierającą tabliczkę mnożenia 10x10; wykorzystaj pętle
 #. Napisz program rysujący zbiór Mandelbrota
+#. (*) Policz unikalne tertapeptydy. W pliku ``chains_from_db-uniq10.fasta`` znajdziesz sekwencje
+   białek, zapisane w następującym formacie:
+
+        >6cgxA
+        GCCSDPRCNYAHPAICGGAAGG
+   gdzie linia zaczynająca się od ``>`` to nagłówek, który trzeba pominąć a ``GCCSDPRCNYAHPAICGGAAGG`` to owa sekwencja.
+   Napisz program, który:
+
+     - wczyta wszystkie sekwencje z pliku
+     - każdy z napisów (sekwencji) podzieli na 4-ro literowe fragmenty ze skokiem co 1, np dla ``GCCSDPRCNYAHPAICGGAAGG``
+       będą to ``GCCS``, ``CCSD``, ``CSDP`` itd.
+     - zliczy, ile razy trafiła się każdy z różnych takich czteroliterowych wyrazów
+
+7. argsy i kwargsy, sprawdzanie typów
+--------------------------------------
+#. Stwórz funkcję o zmiennej liczbie argumentów, która liczy średnią z podanych liczb; poniższe wywołania powinny się udać:
+  - srednia(1, 2)
+  - srednia(1, 2, 3, 4, 5)
+  - srednia(1, 2, 3, 5, 6, 7, 8)
+#. Stwórz funkcję, która drukuje na ekranie napis, reprezentujący jeden element HTML. Pierwszym (pozycyjnym) argumentem
+   tej funkcji powinien być typ elementu (np "div" lub "p"), po którym powinny następować argumenty nazwane, określające
+   atrybuty HTML. I tak dla przykładu, wywołanie ``drukuj_html("div",id="el43", class="redborder")`` powinno wydrukować
+   na ekranie: ``"<div id='el43' class='redborder'>"``
+#. Stwórz funkcję, która policzy średnią z podanej listy liczb. Funkcja powinna zwracać ``6`` we wszystkich
+   poniższych przypadkach:
+      - srednia(1, 2, 3, 4, 5)
+      - srednia([1, 2, 3, 4, 5])
+      - srednia([(1,1), (2,1), (3,1), (4,1), (5,1)], column=0)
+      - srednia([(1,1), (1,2), (1,3), (1,4), (1,5)], column=1)
+   W tym celu wykorzystaj ``isinstance`` do sprawdzenia, jakiego typu jest argument ``args[0]``
+
 
 
