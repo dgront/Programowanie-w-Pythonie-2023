@@ -128,5 +128,8 @@ b. wykresy z matplotlib
 #. Pobierz dowolną stronę internetową korzystając z modułu requests i nagraj ją jako tekst
 #. Wyszukaj w tekście strony internetowej wszystkie obrazki, czyli elementy zaczynające się na "<img" i końćzące się na "/img>"
    Rozwiąż ten problem dwoma sposobami: korzystając z wyrażeń regularnych oraz modułu BeautifulSoup
+#. Wytnij URL każdego obrazka, pobierz go i nagraj do oddzielnego pliku
+#. Pobierz listę 250 najlepszych filmów ze strony "https://www.imdb.com/chart/top/?ref_=nv_mv_250" i policz średni ranking tych filmów
+#. (*) Pobierz listę 250 najlepszych filmów, pobierz listę aktorów każdego z filmów i sprawdź, czyje nazwisko pojawia się najczęsciej
 
 
