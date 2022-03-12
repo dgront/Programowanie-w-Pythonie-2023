@@ -121,5 +121,12 @@ b. wykresy z matplotlib
       - srednia([(1,1), (1,2), (1,3), (1,4), (1,5)], column=1)
    W tym celu wykorzystaj ``isinstance`` do sprawdzenia, jakiego typu jest argument ``args[0]``
 
+8. webscraping i przetwarzanie tekstu
+--------------------------------------
+#. Napisz wyrażenie regularne, które weryfikuje poprawność formatu: kod pocztowy, nr PESEL, NIP
+#. Zainstaluj pakiety: requests, BeautifulSoup
+#. Pobierz dowolną stronę internetową korzystając z modułu requests i nagraj ją jako tekst
+#. Wyszukaj w tekście strony internetowej wszystkie obrazki, czyli elementy zaczynające się na "<img" i końćzące się na "/img>"
+   Rozwiąż ten problem dwoma sposobami: korzystając z wyrażeń regularnych oraz modułu BeautifulSoup
 
 
