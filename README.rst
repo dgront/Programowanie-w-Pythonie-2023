@@ -133,3 +133,7 @@ b. wykresy z matplotlib
 #. (*) Pobierz listę 250 najlepszych filmów, pobierz listę aktorów każdego z filmów i sprawdź, czyje nazwisko pojawia się najczęsciej
 
 
+9. GUI
+#. Utwórz minimalny działający program: główne okno i pętlę aplikacji
+#. dodaj guzik do okna; dodaj do niego jakąś akcję (np. po kliknięciu program drukuje na ekran jakiś napis)
+#. Napisz program "kalkulator": powinien mieć  guziki na podstawowe działania (*,+, /, +). Do obliczania wyniku użyj funkcji eval()
