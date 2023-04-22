@@ -17,6 +17,7 @@ Programowanie w Pythonie 2023
 #. Oblicz liczbę PI metodą Monte Carlo
 #. Napisz program, który sprawdza, czy podany rok jest przestępny; lata przestępne są podzielnych przez 4 z tym, że wypadają lata 100, 200 i 300, a nie wypada rok 400.
 #. Oblicz średnią z N liczb losowych z rozkładu płaskiego [0,1)
+#.* Wydrukuj liczby pierwsze z przedziału [2,N]. Liczba pierwsza to taka, która dzieli się tylko przez jeden i samą siebie; dzieląc K (liczbę-kandydata) przez liczby [3,N-1] wszystkie dzielenia powinny dać niezerową resztę
 
 
 2. Listy i słowniki
