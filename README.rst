@@ -1,5 +1,8 @@
-Programowanie w Pythonie 2022
+Programowanie w Pythonie 2023
 =============================
+
+0. Zmienne i operacje na nich
+--------------------------------------
 
 1. Pętle i warunki
 --------------------------------------
