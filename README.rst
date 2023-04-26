@@ -15,6 +15,9 @@ Programowanie w Pythonie 2023
 #. Korzystając z podwójne zagnieżdżonej pętli wydrukuj na ekranie tabliczkę mnożenia od 1 do 10
 #. Narysuj choinki o różnych kształtach (trójkąty złożone ze znaków ``#``) `[choinka lewa] <./rozwiązania/zadania-1/choinka_prawa.py>`_ `[choinka lewa] <./rozwiązania/zadania-1/choinka_lewa.py>`_ 
 #. Oblicz liczbę PI metodą Monte Carlo
+#. Napisz program, który sprawdza, czy podany rok jest przestępny; lata przestępne to te, które dzielą się przez 4 a nie dzielą przez 100 albo dzielą się przez 400.
+#. Oblicz średnią z N liczb losowych z rozkładu płaskiego [0,1)
+#. (*) Wydrukuj liczby pierwsze z przedziału [2,N]. Liczba pierwsza to taka, która dzieli się tylko przez jeden i samą siebie; dzieląc K (liczbę-kandydata) przez liczby [3,N-1] wszystkie dzielenia powinny dać niezerową resztę
 
 
 2. Listy i słowniki
