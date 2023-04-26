@@ -13,7 +13,7 @@ Programowanie w Pythonie 2023
 #. Powyższy wydruk powinien być w jednej linii
 #. Korzystając z podwójne zagnieżdżonej pętli wydrukuj na ekranie prostokąt NxN znaków ``#``
 #. Korzystając z podwójne zagnieżdżonej pętli wydrukuj na ekranie tabliczkę mnożenia od 1 do 10
-#. Narysuj choinki o różnych kształtach (trójkąty złożone ze znaków ``#``)
+#. Narysuj choinki o różnych kształtach (trójkąty złożone ze znaków ``#``) `[choinka lewa] <./rozwiązania/zadania-1/choinka_prawa.py>`_ `[choinka lewa] <./rozwiązania/zadania-1/choinka_lewa.py>`_ 
 #. Oblicz liczbę PI metodą Monte Carlo
 
 

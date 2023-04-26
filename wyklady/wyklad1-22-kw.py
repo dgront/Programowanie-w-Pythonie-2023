@@ -72,9 +72,24 @@ for i in range(20):
         print("#", end="")
 
 print("\n\n\n\n\n\n\n")
-N=5
+# N=5
 for i in range(1,N+1):
     for j in range(i):
         print("#", end="")
     print()
+
+# wczytywanie danych wejściowych z klawiatury, rzut napisu na liczbę całkowitą
+rok_1 = input("podaj rok początkowy:")
+rok_2 = input("podaj rok końcowy:")
+rok_1 = int(rok_1)
+rok_2 = int(rok_2)
+print(rok_1, rok_2)
+# zamiana zmiennych miejscami
+
+if rok_2 < rok_1:
+    tmp = rok_1
+    rok_1 = rok_2
+    rok_2 = tmp
+
+print("Wybrano lata od %d do %d" % (rok_1, rok_2))
 
