@@ -34,10 +34,14 @@ Programowanie w Pythonie 2023
 #. Stwórz słownik zawierający wartość ``12`` dla klucza ``"C"``.
 #. Dodaj do słownika wartości ``14`` i ``16`` odpowiednio dla kluczy ``"N"`` i ``"O"``.
 #. Wydrukuj na ekranie wszystkie klucze z tego słownika.
-#. (*) Stwórz dwie listy: ``lista_i = []``, do której wstawisz ``K`` (np ``K=20``) losowych liczb całkowitych z przedziału :math:`[0,N)`,
+#. **Suma ważona** Stwórz dwie listy: ``lista_i = []``, do której wstawisz ``K`` (np ``K=20``) losowych liczb całkowitych z przedziału :math:`[0,N)`,
    oraz ``lista_x = []``,do której wstawisz N losowych liczb rzeczywistych. Następnie policz sumę liczb wskazaną indeksami.
    Przykład: Dla ``K=5`` i ``N=3`` możemy wylosować ``lista_i = [0, 1, 2, 1, 1]`` i ``lista_x = [0.34, 0.12, 0.98]``. Wtedy
    poprawna suma to ``0.34 + 0.12 + 0.98 + 0.12 + 0.12 = 1.68``
+# **Epitrochoida** Zadeklaruj dwie puste listy: `X` oraz `Y`; wstaw do nich kolejne wartości `xt` i `yt` wygenerowane wg wzoru:
+    xt = (R+r) * cos(t) - h * cos((R+r)/r * t)
+    yt = (R+r) * sin(t) - h * sin((R+r)/r * t)
+    Narysuj wykres Y(X) korzystając z biblioteki Matplotlib
 
 3. Przetwarzanie plików
 --------------------------------------
