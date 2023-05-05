@@ -42,9 +42,10 @@ while True:
 
     # rysowanie obiektów
     oknogry.fill(TLO)  # tlo rysujemy najpierw
-    for i in range(len(kafelki)):
-        k = kafelki[i]
-        pygame.draw.rect(oknogry, k, (i*70+35, 50, 50, 20))
+    for j in range(5):
+        for i in range(len(kafelki)):
+            k = kafelki[i]
+            pygame.draw.rect(oknogry, k, (i*70+35, 50*j+50, 50, 20))
 
     pygame.draw.rect(oknogry, pC, (pX, pY, 60, 20))
 

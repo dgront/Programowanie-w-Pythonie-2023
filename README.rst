@@ -29,8 +29,8 @@ Programowanie w Pythonie 2023
 #. Wylosuj 20 liczb i dopisz do listy
 #. Zadeklaruj zmienną napisową zawierającą słowo "konstantynopolitańczykowianeczka"; stwórz pętlę, która po kolei
    wypisze wszystkie litery tego wyrazu.
-#. Wypisz litery powyższego wyrazu w odwrotnej kolejności (od ostatniej do pierwszej).
-#. Wypisz 10 losowych liter z tego wyrazu.
+#. Wypisz litery powyższego wyrazu w odwrotnej kolejności (od ostatniej do pierwszej). `[rozwiązanie] <./rozwiązania/zadania-2/litery_od_tylu.py>`_
+#. Wypisz 10 losowych liter z tego wyrazu.  `[rozwiązanie] <./rozwiązania/zadania-2/losowe_litery_z_wyrazu.py>`_
 #. Stwórz słownik zawierający wartość ``12`` dla klucza ``"C"``.
 #. Dodaj do słownika wartości ``14`` i ``16`` odpowiednio dla kluczy ``"N"`` i ``"O"``.
 #. Wydrukuj na ekranie wszystkie klucze z tego słownika.
