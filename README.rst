@@ -50,7 +50,7 @@ Programowanie w Pythonie 2023
 3. Przetwarzanie plików
 --------------------------------------
 
-#. Utwórz plik "data.txt", zapisz do niego 10 liczb losowych i zamknij go.
+#. Utwórz plik "data.txt", zapisz do niego 10 liczb pseudolosowych całkowitych z przedziału [1,20] i zamknij go.
 #. Wczytaj plik "data.txt" i wydrukuj zawartość na ekranie
 #. Wczytaj plik "data.txt" linia po linii i wydrukuj na ekranie te linie,
    które zaczynają się na 1
