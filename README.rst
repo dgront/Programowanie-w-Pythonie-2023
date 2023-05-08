@@ -40,14 +40,19 @@ Programowanie w Pythonie 2023
    Przykład: Dla ``K=5`` i ``N=3`` możemy wylosować ``lista_i = [0, 1, 2, 1, 1]`` i ``lista_x = [0.34, 0.12, 0.98]``. Wtedy
    poprawna suma to ``0.34 + 0.12 + 0.98 + 0.12 + 0.12 = 1.68``
 
-#. **Epitrochoida** Zadeklaruj dwie puste listy: `X` oraz `Y`; wstaw do nich kolejne wartości `xt` i `yt` wygenerowane wg wzoru:
-    xt = (R+r) * cos(t) - h * cos((R+r)/r * t)
-    yt = (R+r) * sin(t) - h * sin((R+r)/r * t)
-    Narysuj wykres Y(X) korzystając z biblioteki Matplotlib. `[rozwiązanie] <./rozwiązania/zadania-2/epitrochoida.py>`_
+#. **Epitrochoida**
+   Zadeklaruj dwie puste listy: `X` oraz `Y`; wstaw do nich kolejne wartości `xt` i `yt` wygenerowane wg wzoru:
 
-#. **Szyfr Cezara** to jedna z najprostszych technik szyfrowania, w której każda litera tekstu jawnego (niezaszyfrowanego)
-    zastępowana jest inną, oddaloną od niej o stałą liczbę pozycji w alfabecie. Napisz program, który szyfruje a następnie
-    deszyfruje wiadomości  `[rozwiązanie] <./rozwiązania/zadania-2/szyfr_cezara.py>`_
+    x(t) = (R+r) * cos(t) - h * cos((R+r)/r * t)
+
+    y(t) = (R+r) * sin(t) - h * sin((R+r)/r * t)
+
+   Narysuj wykres Y(X) korzystając z biblioteki Matplotlib. `[rozwiązanie] <./rozwiązania/zadania-2/epitrochoida.py>`_
+
+#. **Szyfr Cezara**
+   to jedna z najprostszych technik szyfrowania, w której każda litera tekstu jawnego (niezaszyfrowanego)
+   zastępowana jest inną, oddaloną od niej o stałą liczbę pozycji w alfabecie. Napisz program, który szyfruje a następnie
+   deszyfruje wiadomości  `[rozwiązanie] <./rozwiązania/zadania-2/szyfr_cezara.py>`_
 
 
 3. Przetwarzanie plików
@@ -86,19 +91,12 @@ a. praca z plikami XLS
 #. zainstaluj moduł openpyxl
 #. stwórz arkusz w którego kolumnie A będzie 10 kolejnych liczb całkowitych
 #. stwórz arkusz z tabliczką mnożenia
-#. stablicuj epitrochoidę; krzywa ta zadana jest równaniem parametrycznym:
-
-    x(t) = (R+r) * cos(t) - h * cos((R+r)/r * t)
-    y(t) = (R+r) * sin(t) - h * sin((R+r)/r * t)
-
-    zapisz w arkuszu: w kolumnie A wartości t od 0 do 5.0 co 0.01, w kolumnie B wartości
-    x(t) a w kolumnie C y(t), następnie zrób w Excelu wykres y(x)
-#. Model Lotki-Voltery
 
 b. wykresy z matplotlib
 ++++++++++++++++++++++++
 #. zainstaluj moduł matplotlib
-#. zrób wykres funkcji sinus; w tym celu:wpisz do
+#. zrób wykres funkcji sinus; w tym celu:
+
   - wpisz do listy ``x`` liczby rzeczywiste od 0 do 6.28 co 0.01
   - wpisz do listy ``y`` wartości sin(x)
   - zrób wykres
