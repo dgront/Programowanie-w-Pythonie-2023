@@ -10,7 +10,9 @@ with open("nazwa.txt") as plik:
     plik = open("nazwa.txt")
     for linia in plik:
         wyrazy = linia.strip().split()
-        suma = suma + float(wyrazy[0])
-        mianownik = mianownik + 1
+        for wyraz in wyrazy:
+            if wyrazy.isnumeric():
+                suma = suma + float(wyrazy[0])
+                mianownik = mianownik + 1
 
 print(suma/mianownik)

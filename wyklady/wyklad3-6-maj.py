@@ -28,6 +28,22 @@ wyrazy = txt.split()
 cyfry = csv.split(',')
 print(wyrazy,cyfry)
 
+inwokacja = """Litwo! Ojczyzno moja! ty jesteś jak zdrowie. Ile cię
+trzeba cenić, ten tylko się dowie, Kto cię stracił. Dziś piękność twą w
+całej ozdobie. Widzę i opisuję, bo tęsknię po tobie. Panno Święta, co
+jasnej bronisz Częstochowy. I w Ostrej świecisz Bramie! Ty, co gród
+zamkowy. Nowogródzki ochraniasz z jego wiernym ludem!"""
+
+for linia in inwokacja.split("\n"):
+    wyrazy = linia.split()
+    tych_klientow_nie_oblugujemy = ";:,.<>!@#$%^&*()\|+_-=?`~!\"'"
+    for wyraz in wyrazy:
+        for znak in tych_klientow_nie_oblugujemy:
+            wyraz = wyraz.replace(znak,"")
+
+        print(wyraz.lower())
+
+
 # ------------ pliki
 plik = open("../dane/plik.txt")
 

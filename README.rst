@@ -50,12 +50,12 @@ Programowanie w Pythonie 2023
 3. Przetwarzanie plików
 --------------------------------------
 
-#. Utwórz plik "data.txt", zapisz do niego 10 liczb pseudolosowych całkowitych z przedziału [1,20] i zamknij go.
+#. Utwórz plik "data.txt", zapisz do niego 10 liczb pseudolosowych całkowitych z przedziału [1,10] i zamknij go. `[rozwiązanie] <./rozwiązania/zadania-3/plik_z_losowymi10.py>`_
 #. Wczytaj plik "data.txt" i wydrukuj zawartość na ekranie
 #. Wczytaj plik "data.txt" linia po linii i wydrukuj na ekranie te linie,
    które zaczynają się na 1
-#. Wczytaj plik "data.txt" i oblicz średnią z liczb w tym pliku
-#. Wczytaj plik "data.txt" linia po linii i oblicz średnią z liczb w tym pliku
+#. Wczytaj plik "data.txt" i oblicz średnią z liczb w drugiej kolumnie tego pliku. Upewnij się, że dane są poprawne `[rozwiązanie] <./rozwiązania/zadania-3/srednia_z_2.py>`_
+#. Wczytaj plik "data.txt" i oblicz średnią z wszystkich liczb w tym pliku. Pamiętaj, aby przejśc w pętli po wszystkich liczbach z każdego wiersza `[rozwiązanie] <./rozwiązania/zadania-3/srednia_z_pliku.py>`_
 #. Wczytaj plik "lotr1.txt" linia po linii i wypisz liczbę wyrazów w każdej linijce; plik ten znajduje się `tutal <http://bioshell.pl/~dgront/lotr1.txt>`_
 #. (*) policz, który wyraz powtarza sie najczęściej w "Lord of the rings"
 #. Wydrukuj pliki z bieżącego katalogu
@@ -72,7 +72,7 @@ Programowanie w Pythonie 2023
    jej argumentami powinny być współczynniki a, b i c równania.
 #. (*) Napisz funkcję, która szyfruje wiadomość wg szyfru Cezara. Argumentami tej funkcji powinny być:
    szyfrowana wiadomość (string) oraz przesunięcie alfabetu (liczba całkowita). Zauważ, że ta sama funkcja
-   może być wykorzystywana do odczytywania szyfrogramów, kiedy przesunięcie jest ujemne.
+   może być wykorzystywana do odczytywania szyfrogramów, kiedy przesunięcie jest ujemne.  `[rozwiązanie] <./rozwiązania/zadania-2/cezar_z_funkcjami.py>`_
 
 5. Przydatne moduły
 --------------------------------------
