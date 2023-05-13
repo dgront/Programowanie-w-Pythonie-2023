@@ -4,6 +4,11 @@ tajna_wiadomość = "ave.cezar.moriture.de.salutant"
 zaszyfrowana_w = ""
 
 def cezar(tekst, klucz):
+    """To jest dokumentacja funkcji cezar.
+
+    Funkcja działa jeszcze lepiej, niż sam Juliusz.
+    """
+
     zaszyfrowana_w = ""
     for litera in tekst:
         nr = szyfr.find(litera.upper())  # --- znajdujemy indeks litery
