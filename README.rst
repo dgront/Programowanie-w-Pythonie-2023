@@ -102,25 +102,7 @@ b. wykresy z matplotlib
   - zrób wykres
 #. zrób wykres epitrochoidy, korzystając z biblioteki matplotlib
 
-6. Złożone struktury danych
---------------------------------------
-#. Zainicjuj listę 3x3
-#. Stwórz listę 2D zawierającą tabliczkę mnożenia 10x10; wykorzystaj pętle
-#. Napisz program rysujący zbiór Mandelbrota
-#. (*) Policz unikalne tertapeptydy. W pliku ``chains_from_db-uniq10.fasta`` znajdziesz sekwencje
-   białek, zapisane w następującym formacie:
-
-        >6cgxA
-        GCCSDPRCNYAHPAICGGAAGG
-   gdzie linia zaczynająca się od ``>`` to nagłówek, który trzeba pominąć a ``GCCSDPRCNYAHPAICGGAAGG`` to owa sekwencja.
-   Napisz program, który:
-
-     - wczyta wszystkie sekwencje z pliku
-     - każdy z napisów (sekwencji) podzieli na 4-ro literowe fragmenty ze skokiem co 1, np dla ``GCCSDPRCNYAHPAICGGAAGG``
-       będą to ``GCCS``, ``CCSD``, ``CSDP`` itd.
-     - zliczy, ile razy trafiła się każdy z różnych takich czteroliterowych wyrazów
-
-7. argsy i kwargsy, sprawdzanie typów
+6. argsy i kwargsy, sprawdzanie typów
 --------------------------------------
 #. Stwórz funkcję o zmiennej liczbie argumentów, która liczy średnią z podanych liczb; poniższe wywołania powinny się udać:
   - srednia(1, 2)
@@ -138,17 +120,32 @@ b. wykresy z matplotlib
       - srednia([(1,1), (1,2), (1,3), (1,4), (1,5)], column=1)
    W tym celu wykorzystaj ``isinstance`` do sprawdzenia, jakiego typu jest argument ``args[0]``
 
-8. webscraping i przetwarzanie tekstu
+7. webscraping i przetwarzanie tekstu
 --------------------------------------
-#. Napisz wyrażenie regularne, które weryfikuje poprawność formatu: kod pocztowy, nr PESEL, NIP
 #. Zainstaluj pakiety: requests, BeautifulSoup
 #. Pobierz dowolną stronę internetową korzystając z modułu requests i nagraj ją jako tekst
-#. Wyszukaj w tekście strony internetowej wszystkie obrazki, czyli elementy zaczynające się na "<img" i końćzące się na "/img>"
+#. Wyszukaj w tekście strony internetowej wszystkie obrazki, czyli elementy zaczynające się na "<img" i kończące się na "/img>"
    Rozwiąż ten problem dwoma sposobami: korzystając z wyrażeń regularnych oraz modułu BeautifulSoup
-#. Wytnij URL każdego obrazka, pobierz go i nagraj do oddzielnego pliku
-#. Pobierz listę 250 najlepszych filmów ze strony "https://www.imdb.com/chart/top/?ref_=nv_mv_250" i policz średni ranking tych filmów
-#. (*) Pobierz listę 250 najlepszych filmów, pobierz listę aktorów każdego z filmów i sprawdź, czyje nazwisko pojawia się najczęsciej
+#. Pobierz listę 50 najlepszych filmów ze strony "https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc" i policz średni ranking tych filmów
+#. Pobierz listę 50 najlepszych filmów, pobierz listę aktorów każdego z filmów i sprawdź, czyje nazwisko pojawia się najczęsciej `[rozwiązanie] <./rozwiązania/zadania-4/najlepszy_aktor.py>`_
 
+8. Złożone struktury danych
+--------------------------------------
+#. Zainicjuj listę 3x3
+#. Stwórz listę 2D zawierającą tabliczkę mnożenia 10x10; wykorzystaj pętle
+#. Napisz program rysujący zbiór Mandelbrota
+#. (*) Policz unikalne tertapeptydy. W pliku ``chains_from_db-uniq10.fasta`` znajdziesz sekwencje
+   białek, zapisane w następującym formacie:
+
+        >6cgxA
+        GCCSDPRCNYAHPAICGGAAGG
+   gdzie linia zaczynająca się od ``>`` to nagłówek, który trzeba pominąć a ``GCCSDPRCNYAHPAICGGAAGG`` to owa sekwencja.
+   Napisz program, który:
+
+     - wczyta wszystkie sekwencje z pliku
+     - każdy z napisów (sekwencji) podzieli na 4-ro literowe fragmenty ze skokiem co 1, np dla ``GCCSDPRCNYAHPAICGGAAGG``
+       będą to ``GCCS``, ``CCSD``, ``CSDP`` itd.
+     - zliczy, ile razy trafiła się każdy z różnych takich czteroliterowych wyrazów
 
 9. GUI
 ---------
