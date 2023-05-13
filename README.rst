@@ -68,7 +68,7 @@ Programowanie w Pythonie 2023
 #. (*) policz, który wyraz powtarza sie najczęściej w "Lord of the rings" `[rozwiązanie] <./rozwiązania/zadania-3/policz_wyrazy.py>`_
 #. Wydrukuj pliki z bieżącego katalogu
 #. Wydrukuj bieżący katalog
-#. (*) policz, ile plików o rozszerzeniu ``".jpg"`` jest we wszystkich podkatalogach
+#. (*) policz, ile plików o rozszerzeniu ``".jpg"`` jest we wszystkich podkatalogach  `[rozwiązanie] <./rozwiązania/zadania-3/zlicz_jpg.py>`_
 #. (**) napisz program, który zlicza wszystkie pliki we wszystkich podkatalogach, grupując je wg rozszerzenia; wynikiem
    działania programu powinna być tabelka wyglądająca np tak : ``"JPG": 124, "PNG": 34, "EXE": 2, "TXT": 17``
 
@@ -82,25 +82,12 @@ Programowanie w Pythonie 2023
    szyfrowana wiadomość (string) oraz przesunięcie alfabetu (liczba całkowita). Zauważ, że ta sama funkcja
    może być wykorzystywana do odczytywania szyfrogramów, kiedy przesunięcie jest ujemne.  `[rozwiązanie] <./rozwiązania/zadania-2/cezar_z_funkcjami.py>`_
 
-5. Przydatne moduły
+5. praca z plikami XLS
 --------------------------------------
 
-a. praca z plikami XLS
-++++++++++++++++++++++++
-
 #. zainstaluj moduł openpyxl
-#. stwórz arkusz w którego kolumnie A będzie 10 kolejnych liczb całkowitych
-#. stwórz arkusz z tabliczką mnożenia
-
-b. wykresy z matplotlib
-++++++++++++++++++++++++
-#. zainstaluj moduł matplotlib
-#. zrób wykres funkcji sinus; w tym celu:
-
-  - wpisz do listy ``x`` liczby rzeczywiste od 0 do 6.28 co 0.01
-  - wpisz do listy ``y`` wartości sin(x)
-  - zrób wykres
-#. zrób wykres epitrochoidy, korzystając z biblioteki matplotlib
+#. stwórz arkusz w którego kolumnie A będzie 10 kolejnych liczb całkowitych `[rozwiązanie] <./rozwiązania/zadania-4/wexelu_1.py>`_
+#. stwórz arkusz z tabliczką mnożenia `[rozwiązanie] <./rozwiązania/zadania-4/tabliczka_w_exelu.py>`_
 
 6. argsy i kwargsy, sprawdzanie typów
 --------------------------------------
@@ -120,12 +107,14 @@ b. wykresy z matplotlib
       - srednia([(1,1), (1,2), (1,3), (1,4), (1,5)], column=1)
    W tym celu wykorzystaj ``isinstance`` do sprawdzenia, jakiego typu jest argument ``args[0]``
 
+ `[rozwiązania] <./rozwiązania/zadania-4/args_kwargs.py>`_
+
 7. webscraping i przetwarzanie tekstu
 --------------------------------------
 #. Zainstaluj pakiety: requests, BeautifulSoup
-#. Pobierz dowolną stronę internetową korzystając z modułu requests i nagraj ją jako tekst
+#. Pobierz dowolną stronę internetową korzystając z modułu requests i nagraj ją jako tekst `[rozwiązanie] <./rozwiązania/zadania-4/pobierz_strony.py>`_
 #. Wyszukaj w tekście strony internetowej wszystkie obrazki, czyli elementy zaczynające się na "<img" i kończące się na "/img>"
-   Rozwiąż ten problem dwoma sposobami: korzystając z wyrażeń regularnych oraz modułu BeautifulSoup
+   Rozwiąż ten problem dwoma sposobami: korzystając z wyrażeń regularnych oraz modułu BeautifulSoup `[rozwiązanie] <./rozwiązania/zadania-4/obrazki_na_stronie.py>`_
 #. Pobierz listę 50 najlepszych filmów ze strony "https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc" i policz średni ranking tych filmów
 #. Pobierz listę 50 najlepszych filmów, pobierz listę aktorów każdego z filmów i sprawdź, czyje nazwisko pojawia się najczęsciej `[rozwiązanie] <./rozwiązania/zadania-4/najlepszy_aktor.py>`_
 

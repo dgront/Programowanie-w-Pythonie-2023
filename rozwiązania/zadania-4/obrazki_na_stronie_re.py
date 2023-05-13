@@ -7,7 +7,7 @@ out = requests.get(url)
 wyniki = re.findall("<img.*?>",out.text)
 print(wyniki)
 
-# ---------- rozwiązanie z wyrażeniem regularnym
+# ---------- rozwiązanie z wyrażeniem BeautifulSoup
 soup = BeautifulSoup(out.text, "html.parser")
 # ---------- wybieramy wszystkie elementy IMG z tej strony
 print(soup.find_all("img"))
