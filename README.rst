@@ -109,16 +109,7 @@ Programowanie w Pythonie 2023
 
  `[rozwiązania] <./rozwiązania/zadania-4/args_kwargs.py>`_
 
-7. webscraping i przetwarzanie tekstu
---------------------------------------
-#. Zainstaluj pakiety: requests, BeautifulSoup
-#. Pobierz dowolną stronę internetową korzystając z modułu requests i nagraj ją jako tekst `[rozwiązanie] <./rozwiązania/zadania-4/pobierz_strony.py>`_
-#. Wyszukaj w tekście strony internetowej wszystkie obrazki, czyli elementy zaczynające się na "<img" i kończące się na "/img>"
-   Rozwiąż ten problem dwoma sposobami: korzystając z wyrażeń regularnych oraz modułu BeautifulSoup `[rozwiązanie] <./rozwiązania/zadania-4/obrazki_na_stronie.py>`_
-#. Pobierz listę 50 najlepszych filmów ze strony "https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc" i policz średni ranking tych filmów
-#. Pobierz listę 50 najlepszych filmów, pobierz listę aktorów każdego z filmów i sprawdź, czyje nazwisko pojawia się najczęsciej `[rozwiązanie] <./rozwiązania/zadania-4/najlepszy_aktor.py>`_
-
-8. Złożone struktury danych
+7. Złożone struktury danych
 --------------------------------------
 #. Zainicjuj listę 3x3
 #. Stwórz listę 2D zawierającą tabliczkę mnożenia 10x10; wykorzystaj pętle
@@ -136,7 +127,25 @@ Programowanie w Pythonie 2023
        będą to ``GCCS``, ``CCSD``, ``CSDP`` itd.
      - zliczy, ile razy trafiła się każdy z różnych takich czteroliterowych wyrazów
 
-9. GUI
+8. webscraping i przetwarzanie tekstu
+--------------------------------------
+#. Zainstaluj pakiety: requests, BeautifulSoup
+#. Pobierz dowolną stronę internetową korzystając z modułu requests i nagraj ją jako tekst `[rozwiązanie] <./rozwiązania/zadania-4/pobierz_strony.py>`_
+#. Wyszukaj w tekście strony internetowej wszystkie obrazki, czyli elementy zaczynające się na "<img" i kończące się na "/img>"
+   Rozwiąż ten problem dwoma sposobami: korzystając z wyrażeń regularnych oraz modułu BeautifulSoup `[rozwiązanie] <./rozwiązania/zadania-4/obrazki_na_stronie.py>`_
+#. Pobierz listę 50 najlepszych filmów ze strony "https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc" i policz średni ranking tych filmów
+#. Pobierz listę 50 najlepszych filmów, pobierz listę aktorów każdego z filmów i sprawdź, czyje nazwisko pojawia się najczęsciej `[rozwiązanie] <./rozwiązania/zadania-4/najlepszy_aktor.py>`_
+
+9. Przetwarzanie danych tabelarycznych: moduł Pandas
+-----------------------------------------------------
+
+#. Wczytaj plik w formacie CSV, np `[pokemon.csv] <./dane/pokemon.csv>`_
+#. pobierz listę kolumn
+#. pobierz wybraną kolumnę oraz wybrany wiersz (pole ``loc`` oraz ``iloc``)
+#. pobierz wybrany element
+#. znajdź Pokemona z najmniejszym BMI
+
+10. GUI
 ---------
 #. Utwórz minimalny działający program: główne okno i pętlę aplikacji
 #. dodaj guzik do okna; dodaj do niego jakąś akcję (np. po kliknięciu program drukuje na ekran jakiś napis)
