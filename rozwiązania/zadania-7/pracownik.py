@@ -16,7 +16,7 @@ class Pracownik:
         """Drukuje informację o pracowniku
 
 W zależności od ustawienia globalnego pola Pracownik.WYDRUK,
-drukowanie odbywa się w postaci tabelarycznje lub jako lista pól
+drukowanie odbywa się w postaci tabelarycznie lub jako lista pól
         """
         if Pracownik.WYDRUK == "TABELA":
             ret_str = "%5d | %10s | %15s | %3d" % (self.__id_prac, self.__name, self.__surname, self.__urlop)
@@ -43,11 +43,24 @@ drukowanie odbywa się w postaci tabelarycznje lub jako lista pól
         """zwraca imię nazwisko"""
         return self.__surname
 
-    def __set_name(self, new_name):
+    def _set_name(self, new_name):
+        """To jest metoda chroniona (protected)"""
         self.__name = new_name
 
     def id(self):
         return self.__id_prac
+
+    def __lt__(self, other):
+        if isinstance(other, Kierownik) and isinstance(self, Pracownik):
+            return False
+        if isinstance(other, Pracownik) and isinstance(self, Kierownik):
+            return True
+        if self.__surname < other.__surname: return True
+        elif self.__surname > other.__surname : return False
+        else:
+            if self.__name < other.__name: return True
+            else: return False
+
 
 
 class Kierownik(Pracownik):

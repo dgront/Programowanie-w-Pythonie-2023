@@ -1,8 +1,15 @@
+# UWAGA! Plik pracownik.py musi być w tym samym katalogu, co ten plik
 from pracownik import Pracownik, Kierownik
-# from pracownik import *
 
-# import pracownik
 p = Pracownik("Zupa", "Grzybowa")
 k = Kierownik("Johny", "Nopapa")
-p.imie()
-print(k)
+# trzech pracowników na dwóch kierowników - niezły wynik
+personel = [k, p, p, p, k]
+
+# --- sortowanie obiektów z wyrażeniem lambda
+personel.sort(key=lambda o: o.nazwisko())
+# --- wydruk personelu
+for i in personel:
+    print(i)
+
+
