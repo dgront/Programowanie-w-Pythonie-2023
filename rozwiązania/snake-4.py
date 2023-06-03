@@ -1,6 +1,7 @@
 import pygame, sys, random
 
 pygame.init()
+lista = []
 
 # ---------- ustawienia gry
 WYS, SZER = 500, 900
